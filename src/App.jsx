@@ -334,13 +334,13 @@ function App() {
                   <div className="pb-6 border-b border-blue-400">
                     <p className="text-blue-200 text-sm mb-1">Phương Thức 2</p>
                     <p className="text-2xl font-bold">{pt2score.toFixed(2)}</p>
-                    <p className="text-xs text-blue-200 mt-1">TN THPT + Học Bạ</p>
+                    <p className="text-xs text-blue-200 mt-1">TN THPT {(weightPT2 * 100).toFixed(0)}% + Học Bạ {(100 - weightPT2 * 100).toFixed(0)}%</p>
                   </div>
 
                   <div className="pb-6 border-b border-blue-400">
                     <p className="text-blue-200 text-sm mb-1">Phương Thức 3</p>
                     <p className="text-2xl font-bold">{pt3score.toFixed(2)}</p>
-                    <p className="text-xs text-blue-200 mt-1">TN THPT + ĐGNL</p>
+                    <p className="text-xs text-blue-200 mt-1">TN THPT {(weightPT3 * 100).toFixed(0)}% + ĐGNL {(100 - weightPT3 * 100).toFixed(0)}%</p>
                   </div>
 
                   <div className="pb-6 border-b border-blue-400">
